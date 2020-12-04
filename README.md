@@ -33,7 +33,7 @@
 - [为什么 TCP 协议有 TIME_WAIT 状态 - Why’s THE Design](https://draveness.me/whys-the-design-tcp-time-wait/)
 
 - [线上大量CLOSE_WAIT原因排查](https://cloud.tencent.com/developer/article/1381359)  
-  `# netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'`
+  // netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 - [使用 WireShark 分析 TCP/IP 三次握手 和 四次挥手](https://www.cnblogs.com/bylijian/p/8565601.html)  
   
 - [从输入 URL 到页面加载完成的过程中都发生了什么事情？ - 百度 FEX](http://fex.baidu.com/blog/2014/05/what-happen/)    

@@ -1,19 +1,18 @@
 本仓库的名字 **read the fucking 42** 来源于两部分的组成：
  
 1. Google 搜索：[the answer to life the universe and everything](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02LidI--os2Bui67zR_qwjYgUtgdQ%3A1606834389546&ei=1VjGX_jYIIH_wAOMrIboCg&q=the+answer+to+life+the+universe+and+everything&oq=the+answer+to+life+the+universe+and+everything&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQR1D4HlinJmDDLWgAcAJ4AIAB0QGIAeIJkgEFMC42LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwi4l4HIhK3tAhWBP3AKHQyWAa0Q4dUDCA0&uact=5) 的结果为 42。
- 
-    `42，是道格拉斯·亚当斯所作的小说《银河系漫游指南》中“生命、宇宙以及任何事情的终极答案”的答案` 
+
+    `42，是道格拉斯·亚当斯所作的小说《银河系漫游指南》中“生命、宇宙以及任何事情的终极答案”的答案`
 2. SpaceX 有两艘可操作的无人驾驶着陆船，一艘名字为“当然我还爱你”（[Of Course I Still Love You](https://spacexfleet.com/of-course-i-still-love-you)），另一艘名字为“请阅读说明书”号（[Just Read the Instructions](https://www.space.com/28445-spacex-elon-musk-drone-ships-names.html)）
- 
- 
+
 **read the fucking 42** 代表：
- 
+
 - [read the fucking manual](https://en.wikipedia.org/wiki/RTFM)
 - read the fucking source code
 - read the fucking article 
 - read the fucking wiki
 - read the fucking book
- 
+
 欢迎大家一起建设此仓库 :-)
 
 收录文章标准：
@@ -34,7 +33,7 @@
 - [为什么 TCP 协议有 TIME_WAIT 状态 - Why’s THE Design](https://draveness.me/whys-the-design-tcp-time-wait/)
 
 - [线上大量CLOSE_WAIT原因排查](https://cloud.tencent.com/developer/article/1381359)  
-  `# netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'` 
+  `# netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'`
 - [使用 WireShark 分析 TCP/IP 三次握手 和 四次挥手](https://www.cnblogs.com/bylijian/p/8565601.html)  
   
 - [从输入 URL 到页面加载完成的过程中都发生了什么事情？ - 百度 FEX](http://fex.baidu.com/blog/2014/05/what-happen/)    
@@ -83,7 +82,7 @@
 - 《书名：Java并发实现原理：JDK源码剖析_作者：余春龙》  
     微信读书可读
 
-- 《Java Concurrency In Practice_作者：BrianGöetz、DougLea 等》  
+- 《Java Concurrency In Practice_作者：Brian Göetz、Doug Lea 等》  
     个人建议，不要读中文版，翻译得太差，让人怀疑人生 :-)
 
 - [Java并发性和多线程介绍目录 - Java并发编程网翻译](http://ifeve.com/java-concurrency-thread-directory/)
@@ -115,10 +114,8 @@
   
 - [Java Garbage Collection Basics - Oracle 官方文档](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)  
     Time to Complete，Approximately 1 hour
- 
 - [监控调优故障排除_命令行工具_GUI 工具 - 官方文档](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/toc.html)    
     javap、jps、jmc、jvisualvm、jstat、jinfo、jstack、jmap等等
-  
 - [VM Options Explorer - OpenJDK8 HotSpot](https://chriswhocodes.com/hotspot_options_jdk8.html)  
     各种版本 OpenJDK 虚拟机参数  
     
@@ -144,7 +141,7 @@
 - 《书名：Redis 深度历险：核心原理与应用实践_作者: 钱文品》
 
 - [Redis - documentation 官方文档](https://redis.io/documentation)  
-    data types、transactions、Persistence（持久化RDB、AOF）、Distributed locks 等等   
+    data types、transactions、Persistence（持久化RDB、AOF）、Distributed locks 等等
 - [缓存 - Advanced Java](https://github.com/doocs/advanced-java/blob/main/README.md#%E7%BC%93%E5%AD%98)  
     缓存与数据库双写不一致，缓存雪崩、缓存穿透、缓存击穿，Redis 持久化，Redis 过期策略、主从、集群、哨兵 等等
     
@@ -182,8 +179,8 @@
 
 - [Spring Session](https://spring.io/projects/spring-session)
 
-### SSO（单点登录） 
-- [全面介绍SSO（单点登录）](https://juejin.cn/post/6844904009820536840) 
+### SSO（单点登录）
+- [全面介绍SSO（单点登录）](https://juejin.cn/post/6844904009820536840)
 - 其他：[理解OAuth 2.0](https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
 ## 分布式搜索引擎 - Elasticsearch
@@ -272,11 +269,11 @@
 欢迎大家补充 相关技术文章   TODO
 
 SpringCloud
- 
+
 Netty
- 
+
 ZooKeeper
- 
+
 Dubbo
 
 ---
@@ -291,7 +288,7 @@ Dubbo
 
 - [秒杀](https://github.com/gzc426/Java-Interview/blob/master/%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%8D%90/%E7%A7%92%E6%9D%80.md)
 
-- [秒杀系统架构分析与实战](https://github.com/hackjutsu/Hackjutsu/blob/master/source/_posts/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98.md) 
-- [如何避免电商秒杀中出现的超卖超买现象](https://github.com/chenqingspring/blog/issues/1) 
+- [秒杀系统架构分析与实战](https://github.com/hackjutsu/Hackjutsu/blob/master/source/_posts/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98.md)
+- [如何避免电商秒杀中出现的超卖超买现象](https://github.com/chenqingspring/blog/issues/1)
 - [一般电商网站中，下单和减库存是怎么设计的 - v2ex](https://www.v2ex.com/t/703857)
 

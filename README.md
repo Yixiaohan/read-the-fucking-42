@@ -1,5 +1,5 @@
 本仓库的名字 **read the fucking 42** 来源于两部分的组成：
- 
+
 1. Google 搜索：[the answer to life the universe and everything](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02LidI--os2Bui67zR_qwjYgUtgdQ%3A1606834389546&ei=1VjGX_jYIIH_wAOMrIboCg&q=the+answer+to+life+the+universe+and+everything&oq=the+answer+to+life+the+universe+and+everything&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQR1D4HlinJmDDLWgAcAJ4AIAB0QGIAeIJkgEFMC42LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwi4l4HIhK3tAhWBP3AKHQyWAa0Q4dUDCA0&uact=5) 的结果为 42。
 
     `42，是道格拉斯·亚当斯所作的小说《银河系漫游指南》中“生命、宇宙以及任何事情的终极答案”的答案`
@@ -142,6 +142,10 @@
 
 - [Redis - documentation 官方文档](https://redis.io/documentation)  
     data types、transactions、Persistence（持久化RDB、AOF）、Distributed locks 等等
+
+- [7 Redis Worst Practices 官方博文](https://redislabs.com/blog/7-redis-worst-practices/)
+    7 个最糟糕的 Redis 用法。比如，为什么生产环境不让用 keys 命令？
+
 - [缓存 - Advanced Java](https://github.com/doocs/advanced-java/blob/main/README.md#%E7%BC%93%E5%AD%98)  
     缓存与数据库双写不一致，缓存雪崩、缓存穿透、缓存击穿，Redis 持久化，Redis 过期策略、主从、集群、哨兵 等等
     
@@ -181,6 +185,7 @@
 
 ### SSO（单点登录）
 - [全面介绍SSO（单点登录）](https://juejin.cn/post/6844904009820536840)
+
 - 其他：[理解OAuth 2.0](https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
 ## 分布式搜索引擎 - Elasticsearch
@@ -207,7 +212,8 @@
 - [Redis_分布式锁原理](https://github.com/heibaiying/Full-Stack-Notes/blob/master/notes/Redis_%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%8E%9F%E7%90%86.md)
 
 - [distributed-lock-redis-vs-zookeeper - advanced-java](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md)  
-    一般实现分布式锁都有哪些方式？使用 Redis 如何设计分布式锁？使用 zk 来设计分布式锁可以吗？这两种分布式锁的实现方式哪种效率比较高？ 
+    一般实现分布式锁都有哪些方式？使用 Redis 如何设计分布式锁？使用 zk 来设计分布式锁可以吗？这两种分布式锁的实现方式哪种效率比较高？
+
 - [Redlock分布式锁](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/Redlock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.md)  
     这篇文章主要是对 Redis 官方网站刊登的 Distributed locks with Redis 部分内容的总结和翻译。
 
@@ -230,7 +236,8 @@
 
 - [如何设计一个分布式ID生成器(Distributed ID Generator)，并保证ID按时间粗略有序？](https://github.com/soulmachine/system-design/blob/master/cn/distributed-id-generator.md)
 
-- [细聊分布式ID生成方法 - 【58沈剑架构系列】](https://www.cnblogs.com/codeon/p/6415273.html) 
+- [细聊分布式ID生成方法 - 【58沈剑架构系列】](https://www.cnblogs.com/codeon/p/6415273.html)
+
 ## 分布式事务和数据一致性
 
 - [分布式事务基本原理](https://github.com/dunwu/blog/blob/master/source/_posts/theory/distributed-transaction.md)  

@@ -170,7 +170,12 @@
   
 - [一致性哈希算法的理解与实践](https://github.com/Yikun/yikun.github.com/issues/53)  
 
-- [图解一致性哈希算法](https://segmentfault.com/a/1190000021199728) 
+- [图解一致性哈希算法](https://segmentfault.com/a/1190000021199728)
+
+- [序列化和反序列化 - 美团点评技术团队](https://tech.meituan.com/2015/02/26/serialization-vs-deserialization.html)
+
+- [Kryo 和 FST 序列化 - Dubbo 官方文档](http://dubbo.apache.org/zh/docs/v2.7/user/serialization/)
+
 ## 分布式会话与单点登录SSO
 
 ### 分布式会话

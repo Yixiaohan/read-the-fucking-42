@@ -51,9 +51,8 @@
 
 # 操作系统
 
-- [Linux 常用命令总结 - 手册制作: 雪松 ](https://github.com/liquanzhou/ops_doc/blob/master/shell%E5%AE%9E%E4%BE%8B%E6%89%8B%E5%86%8C.sh)
-
-  运维工程师的总结
+- [Linux 常用命令总结 - 手册制作: 雪松 ](https://github.com/liquanzhou/ops_doc/blob/master/shell%E5%AE%9E%E4%BE%8B%E6%89%8B%E5%86%8C.sh)  
+    运维工程师的总结
 
 ---
 
@@ -72,7 +71,7 @@
 
 - [疫苗：Java HashMap 的死循环 - coolshell](https://coolshell.cn/articles/9606.html)
 
-## Java 多线程与并发
+## Java 并发与多线程
 
 - 《书名：Java并发编程的艺术_作者：方腾飞　魏鹏　程晓明》  
  方腾飞，并发编程网创始人。微信读书可读
@@ -88,14 +87,19 @@
 
 - [Java并发性和多线程介绍目录 - Java并发编程网翻译](http://ifeve.com/java-concurrency-thread-directory/)
 
+- [阿里巴巴 《Java 开发手册》编程规约 (六) 并发处理](https://developer.aliyun.com/special/tech-java)  
+    点击链接可读，微信读书也可读
+
 ### synchronized 
 
 - [不可不说的Java“锁”事 - 美团技术团队](https://tech.meituan.com/2018/11/15/java-lock.html)
 
-- [synchronized 实现原理 - 小米信息技术部团队](https://xiaomi-info.github.io/2020/03/24/synchronized/) 
+- [synchronized 实现原理 - 小米信息技术部团队](https://xiaomi-info.github.io/2020/03/24/synchronized/)
+
 - [synchronized 原理及其应用](https://juejin.cn/post/6844904114061590535)
 
-- [关键字: synchronized 详解](https://www.pdai.tech/md/java/thread/java-thread-x-key-synchronized.html) 
+- [关键字: synchronized 详解](https://www.pdai.tech/md/java/thread/java-thread-x-key-synchronized.html)
+
 - [死磕 Synchronized 底层实现](https://github.com/farmerjohngit/myblog/issues/12)
 
 ### ReentrantLock
@@ -112,7 +116,7 @@
 
 ## JVM 虚拟机
 
-- 《书名：深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）_作者：周志明》
+- 《书名：深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）_作者：周志明》   
     微信读书可读
   
 - [Java Garbage Collection Basics - Oracle 官方文档](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)  
@@ -136,6 +140,9 @@
 - [Innodb中的事务隔离级别和锁的关系 - 美团技术团队](https://tech.meituan.com/2014/08/20/innodb-lock.html)
 
 - [MySQL索引原理及慢查询优化 - 美团技术团队](https://tech.meituan.com/2014/06/30/mysql-index.html)
+
+- [阿里巴巴 《Java 开发手册》五、MySQL 数据库](https://developer.aliyun.com/special/tech-java)  
+    点击链接可读，微信读书也可读
 
 ---
 

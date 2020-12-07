@@ -33,7 +33,8 @@
 - [为什么 TCP 协议有 TIME_WAIT 状态 - Why’s THE Design](https://draveness.me/whys-the-design-tcp-time-wait/)
 
 - [线上大量CLOSE_WAIT原因排查](https://cloud.tencent.com/developer/article/1381359)  
-  // netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+    //netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+
 - [使用 WireShark 分析 TCP/IP 三次握手 和 四次挥手](https://www.cnblogs.com/bylijian/p/8565601.html)  
   
 - [从输入 URL 到页面加载完成的过程中都发生了什么事情？ - 百度 FEX](http://fex.baidu.com/blog/2014/05/what-happen/)    
@@ -102,6 +103,7 @@
 - [从ReentrantLock的实现看AQS的原理及应用 - 美团技术团队](https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html)
 
 ### 线程池
+
 - [Java线程池实现原理及其在美团业务中的实践 - 美团技术团队](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
 
 ## NIO
@@ -111,11 +113,14 @@
 ## JVM 虚拟机
 
 - 《书名：深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）_作者：周志明》
+    微信读书可读
   
 - [Java Garbage Collection Basics - Oracle 官方文档](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)  
     Time to Complete，Approximately 1 hour
+
 - [监控调优故障排除_命令行工具_GUI 工具 - 官方文档](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/toc.html)    
     javap、jps、jmc、jvisualvm、jstat、jinfo、jstack、jmap等等
+
 - [VM Options Explorer - OpenJDK8 HotSpot](https://chriswhocodes.com/hotspot_options_jdk8.html)  
     各种版本 OpenJDK 虚拟机参数  
     
@@ -138,6 +143,7 @@
 
 - 《书名：Redis设计与实现_作者：黄健宏》  
      微信读书可读
+
 - 《书名：Redis 深度历险：核心原理与应用实践_作者: 钱文品》
 
 - [Redis - documentation 官方文档](https://redis.io/documentation)  

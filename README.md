@@ -17,7 +17,7 @@
 
 收录文章标准：
 
-- 原则上收录的文章一定一定**要有参考资料 References**
+- 原则上收录的文章一定一定**要有参考资料**，比如**官网文档，wikipedia**相关条目介绍等等
 - 原则上收录的文章一定一定**不要有表情包**
 
 ---
@@ -32,7 +32,7 @@
 
 - [为什么 TCP 协议有 TIME_WAIT 状态 - Why’s THE Design](https://draveness.me/whys-the-design-tcp-time-wait/)
 
-- [线上大量CLOSE_WAIT原因排查](https://cloud.tencent.com/developer/article/1381359)  
+- [线上大量 CLOSE_WAIT 原因排查](https://cloud.tencent.com/developer/article/1381359)   
     //netstat -na | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 
 - [使用 WireShark 分析 TCP/IP 三次握手 和 四次挥手](https://www.cnblogs.com/bylijian/p/8565601.html)  
@@ -62,6 +62,8 @@
 
 - [《书名：《计算机程序的思维逻辑》- 作者：马俊昌》](https://www.cnblogs.com/swiftma/p/5631311.html)  
     点击链可以免费阅读。微信读书也可读
+    
+- [Java中 SPI 机制](https://juejin.cn/post/6844903679431016456)
 
 ## 集合框架
 
@@ -299,7 +301,10 @@ Netty
 
 ZooKeeper
 
-Dubbo
+## Dubbo
+
+- [Dubbo 中的扩展点加载机制 - Dubbo 官网](http://dubbo.apache.org/zh/docs/v2.7/dev/spi/)    
+    Dubbo 的扩展点加载从 JDK 标准的 SPI (Service Provider Interface) 扩展点发现机制加强而来。
 
 ---
 

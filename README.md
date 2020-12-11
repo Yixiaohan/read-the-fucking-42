@@ -295,6 +295,14 @@
 
 欢迎大家补充 相关技术文章   TODO
 
+## 负载均衡
+- [Using nginx as HTTP load balancer](http://nginx.org/en/docs/http/load_balancing.html)    
+    round-robin、least-connected、ip-hash
+
+- [Dubbo 提供的集群负载均衡策略](http://dubbo.apache.org/zh/docs/v2.7/user/examples/loadbalance/)      
+    随机、轮询、最少活跃调用数、一致性 Hash
+
+
 SpringCloud
 
 Netty

@@ -307,7 +307,11 @@ SpringCloud
 
 Netty
 
-ZooKeeper
+## ZooKeeper
+- [Curator](https://curator.apache.org/getting-started.html)    
+    Distributed Lock、Leader Election
+    
+- [Zookeeper 如何解决脑裂问题](https://github.com/boomblog/ArchGuide/blob/master/docs/Zookeeper/Zookeeper%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%84%91%E8%A3%82%E9%97%AE%E9%A2%98/Zookeeper%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%84%91%E8%A3%82%E9%97%AE%E9%A2%98.md)
 
 ## Dubbo
 

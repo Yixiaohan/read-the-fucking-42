@@ -136,7 +136,7 @@
 
 - [英文：How does a relational database work](http://coding-geek.com/how-databases-work/)
 
-- [中文翻译：How does a relational database work](https://web.archive.org/web/20190103130821/http://blog.jobbole.com/100349/)
+- [中文翻译：How does a relational database work](https://web.archive.org/web/20190103130821/http://blog.jobbole.com/100349/)    
     原标题：如果有人问你数据库的原理，叫他看这篇文章  
 
 - [Innodb中的事务隔离级别和锁的关系 - 美团技术团队](https://tech.meituan.com/2014/08/20/innodb-lock.html)
@@ -158,7 +158,7 @@
 - [Redis - documentation 官方文档](https://redis.io/documentation)  
     data types、transactions、Persistence（持久化RDB、AOF）、Distributed locks 等等
 
-- [7 Redis Worst Practices 官方博文](https://redislabs.com/blog/7-redis-worst-practices/)
+- [7 Redis Worst Practices 官方博文](https://redislabs.com/blog/7-redis-worst-practices/)    
     7 个最糟糕的 Redis 用法。比如，为什么生产环境不让用 keys 命令？
 
 - [缓存 - Advanced Java](https://github.com/doocs/advanced-java/blob/main/README.md#%E7%BC%93%E5%AD%98)  
@@ -243,9 +243,8 @@
 - [分布式锁的实现及原理](https://github.com/jinhailang/blog/issues/47)  
     基于 Etcd 与 基于 Redis 的实现方案对比  
 
-## 读写分离、分库分表
-
-欢迎大家补充 相关技术文章   TODO
+## 数据库：读写分离、分库分表    
+    欢迎大家补充 相关技术文章   TODO
 
 ## 分布式 ID 生成
 - [Leaf_美团点评分布式ID生成系统](https://tech.meituan.com/2017/04/21/mt-leaf.html)  
@@ -303,12 +302,17 @@
     随机、轮询、最少活跃调用数、一致性 Hash
 
 
-SpringCloud
+# SpringCloud
 
-Netty
+# Netty
+
+- [《Scalable IO in Java》](http://gee.cs.oswego.edu/dl/cpjslides/nio.pdf)    
+    J.U.C 并发工具作者 Doug Lee 介绍 Reactor 模型
+
+- [线程模型](https://juejin.cn/post/6844903712435994631#heading-9)
 
 ## ZooKeeper
-- [Curator](https://curator.apache.org/getting-started.html)    
+- [Apache Curator](https://curator.apache.org/getting-started.html)    
     Distributed Lock、Leader Election
     
 - [Zookeeper 如何解决脑裂问题](https://github.com/boomblog/ArchGuide/blob/master/docs/Zookeeper/Zookeeper%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%84%91%E8%A3%82%E9%97%AE%E9%A2%98/Zookeeper%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%84%91%E8%A3%82%E9%97%AE%E9%A2%98.md)

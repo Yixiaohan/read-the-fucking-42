@@ -311,6 +311,15 @@
 
 - [线程模型](https://juejin.cn/post/6844903712435994631#heading-9)
 
+- [Linux IO模式及 select、poll、epoll 详解]()     
+    用户空间与内核空间，进程切换，文件描述符fd，I/O 模式，select、poll、epoll
+
+- [linux-io-multiplexing-select-vs-poll-vs-epoll](https://devarea.com/linux-io-multiplexing-select-vs-poll-vs-epoll/#.XYD0TygzaUl)    
+
+- [Chapter 6. I/O Multiplexing: The select and poll Functions](https://notes.shichao.io/unp/ch6/)
+
+- [select-poll-epoll-practical-difference-for-system-architects/](https://www.ulduzsoft.com/2014/01/select-poll-epoll-practical-difference-for-system-architects/)
+
 ## ZooKeeper
 - [Apache Curator](https://curator.apache.org/getting-started.html)    
     Distributed Lock、Leader Election

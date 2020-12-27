@@ -227,12 +227,15 @@
 
 ## 分布式锁
 
-- [Distributed locks with Redis - Redis 官网](https://redis.io/topics/distlock)  
+- [Distributed locks with Redis - Redis 官网](https://redis.io/topics/distlock)     
+
+- [基于 Redis 的分布式锁到底安全吗？](https://juejin.cn/post/6844903465181773831)    
+    分布式系统专家 Martin Kleppmann 和 Redis 的作者 antirez 之间争论的来龙去脉
 
 - [Redis_分布式锁原理](https://github.com/heibaiying/Full-Stack-Notes/blob/master/notes/Redis_%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%8E%9F%E7%90%86.md)
 
 - [distributed-lock-redis-vs-zookeeper - advanced-java](https://github.com/doocs/advanced-java/blob/main/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md)  
-    一般实现分布式锁都有哪些方式？使用 Redis 如何设计分布式锁？使用 zk 来设计分布式锁可以吗？这两种分布式锁的实现方式哪种效率比较高？
+    实现分布式锁都有哪些方式？使用 Redis 如何设计分布式锁？使用 zk 来设计分布式锁可以吗？分布式锁的实现方式效率比较？
 
 - [Redlock分布式锁](https://github.com/Snailclimb/JavaGuide/blob/master/docs/database/Redis/Redlock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.md)  
     这篇文章主要是对 Redis 官方网站刊登的 Distributed locks with Redis 部分内容的总结和翻译。
